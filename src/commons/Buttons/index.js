@@ -11,3 +11,8 @@ export const Button = styled.button`
   border: 2px solid palevioletred;
   border-radius: 3px;
 `
+
+const TomatoButton = Button.extend`
+  color: tomato;
+  border-color: tomato;
+`

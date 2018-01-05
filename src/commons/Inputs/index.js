@@ -8,7 +8,3 @@ export const Input = styled.input`
   border: none;
   border-radius: 3px;
 `
-const TomatoButton = Button.extend`
-  color: tomato;
-  border-color: tomato;
-`

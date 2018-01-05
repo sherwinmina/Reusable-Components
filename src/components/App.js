@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import { Button } from './commons/Buttons'
-import { Input } from './commons/Inputs'
+import { Button } from '../commons/Buttons'
+import { Input } from '../commons/Inputs'
 
 import './App.scss'
 
