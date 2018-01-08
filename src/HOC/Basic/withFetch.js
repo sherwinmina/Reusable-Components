@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 
 const withFetch = PassedComponent =>
-  class WithGists extends React.Component {
+  class WithGists extends Component {
     state = {
-      gists: []
+      data: []
     }
     componentDidMount() {
       fetch(props.url)
@@ -15,7 +15,7 @@ const withFetch = PassedComponent =>
         )
     }
     render() {
-      return <PassedComponent {...this.props} gists={this.state} />
+      return <PassedComponent {...this.props} {...state} />
     }
   }
 
